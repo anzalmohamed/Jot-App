@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Signin</string>
+    <string name="sign_up" />
+    <string name="sign_in" />
+    <string name="welcome" />
+    <string name="user_domain_com" />
+    <string name="reset_password" />
+    <string name="enterEmailId" />
+    <string name="forgot_password" />
+    <string name="error_view" />
+    <string name="TandC" />
+    <string name="password" />
+    <string name="email_hint" />
+    <string name="email" />
+    <string name="email_verify_again" />
+</resources>
