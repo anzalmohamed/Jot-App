@@ -24,7 +24,8 @@ public class SignInActivity extends AppCompatActivity {
     public FirebaseAuth mAuth;
     EditText emailTextInput;
     EditText passwordTextInput;
-    private Button mStartButton;
+//    private Button mNotesButton;
+//    private Button mSignButton;
     Button signInButton;
     Button forgotPasswordButton;
     Button sendVerifyMailAgainButton;
@@ -41,7 +42,11 @@ public class SignInActivity extends AppCompatActivity {
         forgotPasswordButton = findViewById(R.id.forgotPasswordButton);
         sendVerifyMailAgainButton = findViewById(R.id.verifyEmailAgainButton);
         errorView = findViewById(R.id.signInErrorView);
-        mStartButton = (Button) findViewById(R.id.startButton);
+//        mNotesButton = (Button) findViewById(R.id.notesButton);
+//
+//        mSignButton = (Button) findViewById(R.id.notesButton);
+
+
 
         sendVerifyMailAgainButton.setVisibility(View.INVISIBLE);
 
@@ -116,7 +121,22 @@ public class SignInActivity extends AppCompatActivity {
 
             }
         });
-
+//mNotesButton.setOnClickListener(new View.OnClickListener() {
+//    @Override
+//    public void onClick(View v) {
+//        Intent NotesActivity = new Intent(SignInActivity.this, NotesActivity.class);
+//        startActivity(NotesActivity);
+//        SignInActivity.this.finish();
+//    }
+//});
+//
+//        mSignButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent SignUpActivity = new Intent(SignInActivity.this, SignUpActivity.class);
+//                startActivity(SignUpActivity);
+//                SignInActivity.this.finish();}
+//        });
 
         forgotPasswordButton.setOnClickListener(new View.OnClickListener() {
             @Override
