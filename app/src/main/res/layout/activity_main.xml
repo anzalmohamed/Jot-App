@@ -6,6 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="124dp"
+        android:background="@drawable/roundshapedbutton"
+        android:text="Get Started"
+        android:textColor="@color/colorTextIcons" />
 
+    <Button
+        android:id="@+id/signButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="234dp"
+        android:background="@drawable/roundshapedbutton"
+        android:text="Get Started"
+        android:textColor="@color/colorTextIcons"/>
+
+
+    <Button
+        android:id="@+id/notesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/roundshapedbutton"
+        android:text="Create Note"
+        android:textColor="@color/colorTextIcons" />
 
 </RelativeLayout>
