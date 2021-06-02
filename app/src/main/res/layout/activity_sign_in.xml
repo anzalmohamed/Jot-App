@@ -91,15 +91,26 @@
             android:text="email_verify_again" />
 
 
-        <Button
-            android:id="@+id/startButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="118dp"
-            android:background="@drawable/roundshapedbutton"
-            android:text="Create Note"
-            android:textColor="@color/colorTextIcons" />
+<!--        <Button-->
+<!--            android:id="@+id/signButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginBottom="128dp"-->
+<!--            android:background="@drawable/roundshapedbutton"-->
+<!--            android:text="Sign Up"-->
+<!--            android:textColor="@color/colorTextIcons" />-->
+
+
+<!--        <Button-->
+<!--            android:id="@+id/notesButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginBottom="134dp"-->
+<!--            android:background="@drawable/roundshapedbutton"-->
+<!--            android:text="Create Note"-->
+<!--            android:textColor="@color/colorTextIcons" />-->
 
 
 
