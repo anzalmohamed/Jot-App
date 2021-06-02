@@ -23,7 +23,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="149dp"
         android:background="@drawable/roundshapedbutton"
-        android:text="Get Started"
+        android:text="Sign Up"
         android:textColor="@color/colorTextIcons" />
 
 
