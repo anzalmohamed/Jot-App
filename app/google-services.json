@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "940335217684",
+    "project_id": "signin-d2cca",
+    "storage_bucket": "signin-d2cca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940335217684:android:af36202da18a8c68e03b01",
+        "android_client_info": {
+          "package_name": "com.moringaschool.signin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940335217684-jlr107ohcq9a722qdb4urmgbfb0vf0f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-WLrXHQeVxmpaI1gxg5CXvF7E8Y9OOhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940335217684-jlr107ohcq9a722qdb4urmgbfb0vf0f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
