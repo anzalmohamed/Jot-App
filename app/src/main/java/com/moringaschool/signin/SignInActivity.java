@@ -55,6 +55,7 @@ public class SignInActivity extends AppCompatActivity {
 
 
 
+
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -77,7 +78,7 @@ public class SignInActivity extends AppCompatActivity {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()) {
-                                        // Sign in success, update UI with the signed-in user's information
+                                        // Sign in success
                                         Log.d(TAG, "signInWithEmail:success");
 
                                         FirebaseUser user = mAuth.getCurrentUser();
@@ -87,13 +88,19 @@ public class SignInActivity extends AppCompatActivity {
 
 
                                                 System.out.println("Email Verified : " + user.isEmailVerified());
-                                                Intent HomeActivity = new Intent(SignInActivity.this,MainActivity.class);
+                                                Intent NotesActivity = new Intent(SignInActivity.this,NotesActivity.class);
                                                 setResult(RESULT_OK, null);
-                                                startActivity(HomeActivity);
+                                                startActivity(NotesActivity);
                                                 SignInActivity.this.finish();
 
 
-                                            } else {
+                                            }
+                                            else if(user.isEmailVerified()) {
+                                                Toast.makeText(SignInActivity.this, "Logged in", Toast.LENGTH_SHORT).show();
+                                                finish();
+                                                startActivity(new Intent(SignInActivity.this, NotesActivity.class));
+                                            }
+                                            else {
 
                                                 sendVerifyMailAgainButton.setVisibility(View.VISIBLE);
                                                 errorView.setText("Please Verify your EmailID and SignIn");
@@ -101,7 +108,10 @@ public class SignInActivity extends AppCompatActivity {
                                             }
                                         }
 
-                                    } else {
+                                    }
+
+
+                                    else {
                                         // If sign in fails, display a message to the user.
                                         Log.w(TAG, "signInWithEmail:failure", task.getException());
                                         Toast.makeText(SignInActivity.this, "Authentication failed.",
@@ -113,6 +123,7 @@ public class SignInActivity extends AppCompatActivity {
                                     }
 
                                 }
+
                             });
 
 

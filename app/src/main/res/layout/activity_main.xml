@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="45dp"
+        android:layout_marginBottom="112dp"
         android:background="@drawable/roundshapedbutton"
         android:text="Get Started"
         android:textColor="@color/colorTextIcons" />
@@ -21,10 +21,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="149dp"
+        android:layout_marginBottom="199dp"
         android:background="@drawable/roundshapedbutton"
         android:text="Sign Up"
         android:textColor="@color/colorTextIcons" />
 
+    <Button
+        android:id="@+id/notesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/roundshapedbutton"
+        android:text="create note"
+        android:textColor="@color/colorTextIcons" />
 
 </RelativeLayout>

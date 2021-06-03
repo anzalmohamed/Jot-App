@@ -10,7 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Signin">
         <activity android:name=".NoteEditorActivity"></activity>
-        <activity android:name=".NotesActivity" />
+        <activity android:name=".NotesActivity">
+            <intent-filter>
+<!--                <action android:name="android.intent.action.MAIN" />-->
+                <category android:name="android.intent.category.LAUNCHER" />
+           </intent-filter>
+        </activity>
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".ForgotPasswordActivity" />
         <activity android:name=".SignUpActivity" />
